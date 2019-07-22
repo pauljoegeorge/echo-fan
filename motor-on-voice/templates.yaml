@@ -1,0 +1,7 @@
+motor_on: Starting motor now.
+motor_off: Motor will be stopped now.
+motor_on_status: Motor is running. Do I need to stop motor now ?
+motor_off_status: motor is free for use. Do I need to start motor now ?
+motor_already_on: Motor has already started running
+motor_already_off: Motor has already stopped running
+motor_do_nothing: Got it. Waiting to serve you again later.
