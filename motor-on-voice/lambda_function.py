@@ -18,9 +18,8 @@ def launched():
 # when something goes wrong
 @ask.default_intent
 def default_message():
-    speech = "Oh-aw! I couldn't understand you. Do you need any assistant?"
-    retry_speech = "Please try again later. I couldn't rectify your issue"
-    return statement(speech).reprompt(retry_speech)
+    speech = "Oh-aw! I couldn't understand you. Please try again"
+    return question(speech)
 
 # start motor if not running
 @ask.intent('MotorOnIntent')
